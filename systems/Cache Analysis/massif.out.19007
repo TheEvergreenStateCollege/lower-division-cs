@@ -1,0 +1,834 @@
+desc: (none)
+cmd: ./matrixVector 10000 10000
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2080124
+mem_heap_B=1536
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2084779
+mem_heap_B=1600
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2202938
+mem_heap_B=1624
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=2221115
+mem_heap_B=3064
+mem_heap_extra_B=280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2241988
+mem_heap_B=4056
+mem_heap_extra_B=528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2267405
+mem_heap_B=5272
+mem_heap_extra_B=832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2299653
+mem_heap_B=6840
+mem_heap_extra_B=1224
+mem_stacks_B=0
+heap_tree=detailed
+n4: 6840 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4352 0x7FF804360A01: realizeClassWithoutSwift(objc_class*, objc_class*) (in /usr/lib/libobjc.A.dylib)
+  n2: 2176 0x7FF804360AD6: realizeClassWithoutSwift(objc_class*, objc_class*) (in /usr/lib/libobjc.A.dylib)
+   n1: 1952 0x7FF80435F58D: map_images_nolock (in /usr/lib/libobjc.A.dylib)
+    n1: 1952 0x7FF80435DE61: map_images (in /usr/lib/libobjc.A.dylib)
+     n1: 1952 0x100020C0E: invocation function for block in dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*))::$_8::operator()() const (in /usr/lib/dyld)
+      n1: 1952 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+       n1: 1952 0x10001DC12: dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*)) (in /usr/lib/dyld)
+        n1: 1952 0x10004395F: dyld4::APIs::_dyld_objc_register_callbacks(_dyld_objc_callbacks const*) (in /usr/lib/dyld)
+         n1: 1952 0x7FF80435D8E3: _objc_init (in /usr/lib/libobjc.A.dylib)
+          n1: 1952 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+           n1: 1952 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+            n1: 1952 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+             n1: 1952 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+              n1: 1952 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+               n1: 1952 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                n1: 1952 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                 n1: 1952 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                  n1: 1952 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                   n1: 1952 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                    n1: 1952 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                     n1: 1952 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                      n1: 1952 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                       n0: 1952 0x10001231E: (below main) (in /usr/lib/dyld)
+   n2: 224 0x7FF804360AB3: realizeClassWithoutSwift(objc_class*, objc_class*) (in /usr/lib/libobjc.A.dylib)
+    n1: 160 0x7FF80435F58D: map_images_nolock (in /usr/lib/libobjc.A.dylib)
+     n1: 160 0x7FF80435DE61: map_images (in /usr/lib/libobjc.A.dylib)
+      n1: 160 0x100020C0E: invocation function for block in dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*))::$_8::operator()() const (in /usr/lib/dyld)
+       n1: 160 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+        n1: 160 0x10001DC12: dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*)) (in /usr/lib/dyld)
+         n1: 160 0x10004395F: dyld4::APIs::_dyld_objc_register_callbacks(_dyld_objc_callbacks const*) (in /usr/lib/dyld)
+          n1: 160 0x7FF80435D8E3: _objc_init (in /usr/lib/libobjc.A.dylib)
+           n1: 160 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+            n1: 160 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+             n1: 160 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+              n1: 160 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+               n1: 160 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                n1: 160 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                 n1: 160 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                  n1: 160 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                   n1: 160 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                    n1: 160 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                     n1: 160 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                      n1: 160 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                       n1: 160 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                        n0: 160 0x10001231E: (below main) (in /usr/lib/dyld)
+    n0: 64 in 1 place, below massif's threshold (1.00%)
+  n1: 1952 0x7FF80435F58D: map_images_nolock (in /usr/lib/libobjc.A.dylib)
+   n1: 1952 0x7FF80435DE61: map_images (in /usr/lib/libobjc.A.dylib)
+    n1: 1952 0x100020C0E: invocation function for block in dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*))::$_8::operator()() const (in /usr/lib/dyld)
+     n1: 1952 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+      n1: 1952 0x10001DC12: dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*)) (in /usr/lib/dyld)
+       n1: 1952 0x10004395F: dyld4::APIs::_dyld_objc_register_callbacks(_dyld_objc_callbacks const*) (in /usr/lib/dyld)
+        n1: 1952 0x7FF80435D8E3: _objc_init (in /usr/lib/libobjc.A.dylib)
+         n1: 1952 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+          n1: 1952 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+           n1: 1952 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+            n1: 1952 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+             n1: 1952 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+              n1: 1952 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+               n1: 1952 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                n1: 1952 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                 n1: 1952 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                  n1: 1952 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                   n1: 1952 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                    n1: 1952 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                     n1: 1952 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                      n0: 1952 0x10001231E: (below main) (in /usr/lib/dyld)
+  n2: 224 0x7FF804360AB3: realizeClassWithoutSwift(objc_class*, objc_class*) (in /usr/lib/libobjc.A.dylib)
+   n1: 160 0x7FF80435F58D: map_images_nolock (in /usr/lib/libobjc.A.dylib)
+    n1: 160 0x7FF80435DE61: map_images (in /usr/lib/libobjc.A.dylib)
+     n1: 160 0x100020C0E: invocation function for block in dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*))::$_8::operator()() const (in /usr/lib/dyld)
+      n1: 160 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+       n1: 160 0x10001DC12: dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*)) (in /usr/lib/dyld)
+        n1: 160 0x10004395F: dyld4::APIs::_dyld_objc_register_callbacks(_dyld_objc_callbacks const*) (in /usr/lib/dyld)
+         n1: 160 0x7FF80435D8E3: _objc_init (in /usr/lib/libobjc.A.dylib)
+          n1: 160 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+           n1: 160 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+            n1: 160 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+             n1: 160 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+              n1: 160 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+               n1: 160 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                n1: 160 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                 n1: 160 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                  n1: 160 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                   n1: 160 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                    n1: 160 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                     n1: 160 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                      n1: 160 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                       n0: 160 0x10001231E: (below main) (in /usr/lib/dyld)
+   n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 1536 0x7FF80435D7E5: _objc_init (in /usr/lib/libobjc.A.dylib)
+  n1: 1536 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+   n1: 1536 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+    n1: 1536 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+     n1: 1536 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+      n1: 1536 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+       n1: 1536 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+        n1: 1536 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+         n1: 1536 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+          n1: 1536 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+           n1: 1536 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+            n1: 1536 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+             n1: 1536 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+              n1: 1536 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+               n0: 1536 0x10001231E: (below main) (in /usr/lib/dyld)
+ n2: 576 0x7FF80437425E: NXCreateMapTable (in /usr/lib/libobjc.A.dylib)
+  n1: 528 0x7FF8043600FB: protocols() (in /usr/lib/libobjc.A.dylib)
+   n1: 528 0x7FF80435F138: map_images_nolock (in /usr/lib/libobjc.A.dylib)
+    n1: 528 0x7FF80435DE61: map_images (in /usr/lib/libobjc.A.dylib)
+     n1: 528 0x100020C0E: invocation function for block in dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*))::$_8::operator()() const (in /usr/lib/dyld)
+      n1: 528 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+       n1: 528 0x10001DC12: dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*)) (in /usr/lib/dyld)
+        n1: 528 0x10004395F: dyld4::APIs::_dyld_objc_register_callbacks(_dyld_objc_callbacks const*) (in /usr/lib/dyld)
+         n1: 528 0x7FF80435D8E3: _objc_init (in /usr/lib/libobjc.A.dylib)
+          n1: 528 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+           n1: 528 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+            n1: 528 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+             n1: 528 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+              n1: 528 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+               n1: 528 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                n1: 528 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                 n1: 528 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                  n1: 528 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                   n1: 528 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                    n1: 528 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                     n1: 528 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                      n1: 528 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                       n0: 528 0x10001231E: (below main) (in /usr/lib/dyld)
+  n0: 48 in 1 place, below massif's threshold (1.00%)
+ n0: 376 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=2330432
+mem_heap_B=8653
+mem_heap_extra_B=1499
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2353049
+mem_heap_B=9303
+mem_heap_extra_B=1545
+mem_stacks_B=0
+heap_tree=peak
+n8: 9303 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4352 0x7FF804360A01: realizeClassWithoutSwift(objc_class*, objc_class*) (in /usr/lib/libobjc.A.dylib)
+  n2: 2176 0x7FF804360AD6: realizeClassWithoutSwift(objc_class*, objc_class*) (in /usr/lib/libobjc.A.dylib)
+   n1: 1952 0x7FF80435F58D: map_images_nolock (in /usr/lib/libobjc.A.dylib)
+    n1: 1952 0x7FF80435DE61: map_images (in /usr/lib/libobjc.A.dylib)
+     n1: 1952 0x100020C0E: invocation function for block in dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*))::$_8::operator()() const (in /usr/lib/dyld)
+      n1: 1952 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+       n1: 1952 0x10001DC12: dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*)) (in /usr/lib/dyld)
+        n1: 1952 0x10004395F: dyld4::APIs::_dyld_objc_register_callbacks(_dyld_objc_callbacks const*) (in /usr/lib/dyld)
+         n1: 1952 0x7FF80435D8E3: _objc_init (in /usr/lib/libobjc.A.dylib)
+          n1: 1952 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+           n1: 1952 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+            n1: 1952 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+             n1: 1952 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+              n1: 1952 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+               n1: 1952 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                n1: 1952 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                 n1: 1952 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                  n1: 1952 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                   n1: 1952 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                    n1: 1952 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                     n1: 1952 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                      n1: 1952 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                       n0: 1952 0x10001231E: (below main) (in /usr/lib/dyld)
+   n2: 224 0x7FF804360AB3: realizeClassWithoutSwift(objc_class*, objc_class*) (in /usr/lib/libobjc.A.dylib)
+    n1: 160 0x7FF80435F58D: map_images_nolock (in /usr/lib/libobjc.A.dylib)
+     n1: 160 0x7FF80435DE61: map_images (in /usr/lib/libobjc.A.dylib)
+      n1: 160 0x100020C0E: invocation function for block in dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*))::$_8::operator()() const (in /usr/lib/dyld)
+       n1: 160 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+        n1: 160 0x10001DC12: dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*)) (in /usr/lib/dyld)
+         n1: 160 0x10004395F: dyld4::APIs::_dyld_objc_register_callbacks(_dyld_objc_callbacks const*) (in /usr/lib/dyld)
+          n1: 160 0x7FF80435D8E3: _objc_init (in /usr/lib/libobjc.A.dylib)
+           n1: 160 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+            n1: 160 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+             n1: 160 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+              n1: 160 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+               n1: 160 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                n1: 160 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                 n1: 160 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                  n1: 160 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                   n1: 160 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                    n1: 160 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                     n1: 160 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                      n1: 160 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                       n1: 160 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                        n0: 160 0x10001231E: (below main) (in /usr/lib/dyld)
+    n0: 64 in 1 place, below massif's threshold (1.00%)
+  n1: 1952 0x7FF80435F58D: map_images_nolock (in /usr/lib/libobjc.A.dylib)
+   n1: 1952 0x7FF80435DE61: map_images (in /usr/lib/libobjc.A.dylib)
+    n1: 1952 0x100020C0E: invocation function for block in dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*))::$_8::operator()() const (in /usr/lib/dyld)
+     n1: 1952 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+      n1: 1952 0x10001DC12: dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*)) (in /usr/lib/dyld)
+       n1: 1952 0x10004395F: dyld4::APIs::_dyld_objc_register_callbacks(_dyld_objc_callbacks const*) (in /usr/lib/dyld)
+        n1: 1952 0x7FF80435D8E3: _objc_init (in /usr/lib/libobjc.A.dylib)
+         n1: 1952 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+          n1: 1952 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+           n1: 1952 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+            n1: 1952 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+             n1: 1952 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+              n1: 1952 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+               n1: 1952 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                n1: 1952 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                 n1: 1952 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                  n1: 1952 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                   n1: 1952 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                    n1: 1952 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                     n1: 1952 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                      n0: 1952 0x10001231E: (below main) (in /usr/lib/dyld)
+  n2: 224 0x7FF804360AB3: realizeClassWithoutSwift(objc_class*, objc_class*) (in /usr/lib/libobjc.A.dylib)
+   n1: 160 0x7FF80435F58D: map_images_nolock (in /usr/lib/libobjc.A.dylib)
+    n1: 160 0x7FF80435DE61: map_images (in /usr/lib/libobjc.A.dylib)
+     n1: 160 0x100020C0E: invocation function for block in dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*))::$_8::operator()() const (in /usr/lib/dyld)
+      n1: 160 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+       n1: 160 0x10001DC12: dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*)) (in /usr/lib/dyld)
+        n1: 160 0x10004395F: dyld4::APIs::_dyld_objc_register_callbacks(_dyld_objc_callbacks const*) (in /usr/lib/dyld)
+         n1: 160 0x7FF80435D8E3: _objc_init (in /usr/lib/libobjc.A.dylib)
+          n1: 160 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+           n1: 160 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+            n1: 160 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+             n1: 160 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+              n1: 160 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+               n1: 160 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                n1: 160 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                 n1: 160 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                  n1: 160 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                   n1: 160 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                    n1: 160 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                     n1: 160 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                      n1: 160 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                       n0: 160 0x10001231E: (below main) (in /usr/lib/dyld)
+   n0: 64 in 1 place, below massif's threshold (1.00%)
+ n1: 1536 0x7FF80435D7E5: _objc_init (in /usr/lib/libobjc.A.dylib)
+  n1: 1536 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+   n1: 1536 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+    n1: 1536 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+     n1: 1536 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+      n1: 1536 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+       n1: 1536 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+        n1: 1536 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+         n1: 1536 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+          n1: 1536 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+           n1: 1536 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+            n1: 1536 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+             n1: 1536 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+              n1: 1536 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+               n0: 1536 0x10001231E: (below main) (in /usr/lib/dyld)
+ n1: 896 0x7FF8043627F6: class_createInstance (in /usr/lib/libobjc.A.dylib)
+  n4: 896 0x7FF804586C9D: _os_object_alloc_realized (in /usr/lib/system/libdispatch.dylib)
+   n1: 304 0x7FF804444067: xpc_bundle_create_from_origin (in /usr/lib/system/libxpc.dylib)
+    n1: 304 0x7FF80444402A: xpc_bundle_create (in /usr/lib/system/libxpc.dylib)
+     n1: 304 0x7FF804460C50: _xpc_copy_own_bundle (in /usr/lib/system/libxpc.dylib)
+      n1: 304 0x7FF8044413FC: _xpc_collect_images (in /usr/lib/system/libxpc.dylib)
+       n1: 304 0x7FF804440A00: _libxpc_initializer (in /usr/lib/system/libxpc.dylib)
+        n1: 304 0x7FF8115D88A1: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+         n1: 304 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+          n1: 304 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+           n1: 304 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+            n1: 304 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+             n1: 304 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+              n1: 304 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+               n1: 304 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                n1: 304 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                 n1: 304 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                  n1: 304 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                   n0: 304 0x10001231E: (below main) (in /usr/lib/dyld)
+   n1: 288 0x7FF80445F5DD: _xpc_string_create (in /usr/lib/system/libxpc.dylib)
+    n1: 288 0x7FF804440F91: xpc_dictionary_set_string (in /usr/lib/system/libxpc.dylib)
+     n1: 288 0x7FF804440DE7: _xpc_collect_environment (in /usr/lib/system/libxpc.dylib)
+      n1: 288 0x7FF8044409FB: _libxpc_initializer (in /usr/lib/system/libxpc.dylib)
+       n1: 288 0x7FF8115D88A1: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+        n1: 288 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+         n1: 288 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+          n1: 288 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+           n1: 288 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+            n1: 288 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+             n1: 288 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+              n1: 288 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+               n1: 288 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                n1: 288 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                 n1: 288 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                  n0: 288 0x10001231E: (below main) (in /usr/lib/dyld)
+   n1: 192 0x7FF804440F37: xpc_dictionary_create (in /usr/lib/system/libxpc.dylib)
+    n0: 192 in 2 places, all below massif's threshold (1.00%)
+   n0: 112 in 2 places, all below massif's threshold (1.00%)
+ n2: 817 0x7FF8045CFC2D: strdup (in /usr/lib/system/libsystem_c.dylib)
+  n1: 599 0x7FF804440FBF: xpc_string_create (in /usr/lib/system/libxpc.dylib)
+   n1: 599 0x7FF804440F91: xpc_dictionary_set_string (in /usr/lib/system/libxpc.dylib)
+    n1: 599 0x7FF804440DE7: _xpc_collect_environment (in /usr/lib/system/libxpc.dylib)
+     n1: 599 0x7FF8044409FB: _libxpc_initializer (in /usr/lib/system/libxpc.dylib)
+      n1: 599 0x7FF8115D88A1: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+       n1: 599 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+        n1: 599 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+         n1: 599 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+          n1: 599 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+           n1: 599 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+            n1: 599 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+             n1: 599 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+              n1: 599 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+               n1: 599 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                n1: 599 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                 n0: 599 0x10001231E: (below main) (in /usr/lib/dyld)
+  n1: 218 0x7FF8044440C7: _xpc_strdup (in /usr/lib/system/libxpc.dylib)
+   n0: 218 in 5 places, all below massif's threshold (1.00%)
+ n2: 622 0x7FF804458DBA: _xpc_alloc (in /usr/lib/system/libxpc.dylib)
+  n2: 558 0x7FF8044411FE: _xpc_dictionary_insert (in /usr/lib/system/libxpc.dylib)
+   n1: 300 0x7FF804440FA2: xpc_dictionary_set_string (in /usr/lib/system/libxpc.dylib)
+    n1: 300 0x7FF804440DE7: _xpc_collect_environment (in /usr/lib/system/libxpc.dylib)
+     n1: 300 0x7FF8044409FB: _libxpc_initializer (in /usr/lib/system/libxpc.dylib)
+      n1: 300 0x7FF8115D88A1: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+       n1: 300 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+        n1: 300 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+         n1: 300 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+          n1: 300 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+           n1: 300 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+            n1: 300 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+             n1: 300 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+              n1: 300 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+               n1: 300 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                n1: 300 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                 n0: 300 0x10001231E: (below main) (in /usr/lib/dyld)
+   n1: 258 0x7FF80444543E: xpc_dictionary_set_uint64 (in /usr/lib/system/libxpc.dylib)
+    n1: 258 0x7FF8044416A5: _xpc_dyld_image_callback (in /usr/lib/system/libxpc.dylib)
+     n1: 258 0x1000462E6: invocation function for block in dyld4::APIs::_dyld_register_for_bulk_image_loads(void (*)(unsigned int, mach_header const**, char const**)) (in /usr/lib/dyld)
+      n1: 258 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+       n1: 258 0x10004611C: dyld4::APIs::_dyld_register_for_bulk_image_loads(void (*)(unsigned int, mach_header const**, char const**)) (in /usr/lib/dyld)
+        n1: 258 0x7FF8044413E1: _xpc_collect_images (in /usr/lib/system/libxpc.dylib)
+         n1: 258 0x7FF804440A00: _libxpc_initializer (in /usr/lib/system/libxpc.dylib)
+          n1: 258 0x7FF8115D88A1: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+           n1: 258 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+            n1: 258 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+             n1: 258 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+              n1: 258 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+               n1: 258 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                n1: 258 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                 n1: 258 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                  n1: 258 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                   n1: 258 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                    n1: 258 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                     n0: 258 0x10001231E: (below main) (in /usr/lib/dyld)
+  n0: 64 in 1 place, below massif's threshold (1.00%)
+ n2: 576 0x7FF80437425E: NXCreateMapTable (in /usr/lib/libobjc.A.dylib)
+  n1: 528 0x7FF8043600FB: protocols() (in /usr/lib/libobjc.A.dylib)
+   n1: 528 0x7FF80435F138: map_images_nolock (in /usr/lib/libobjc.A.dylib)
+    n1: 528 0x7FF80435DE61: map_images (in /usr/lib/libobjc.A.dylib)
+     n1: 528 0x100020C0E: invocation function for block in dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*))::$_8::operator()() const (in /usr/lib/dyld)
+      n1: 528 0x1000189CB: dyld4::RuntimeLocks::withLoadersReadLock(void ( block_pointer)()) (in /usr/lib/dyld)
+       n1: 528 0x10001DC12: dyld4::RuntimeState::setObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*), void (*)(mach_header const*, void*, mach_header const*, void const*), void (*)(unsigned int, _dyld_objc_notify_mapped_info const*), void (*)(_dyld_objc_notify_mapped_info const*)) (in /usr/lib/dyld)
+        n1: 528 0x10004395F: dyld4::APIs::_dyld_objc_register_callbacks(_dyld_objc_callbacks const*) (in /usr/lib/dyld)
+         n1: 528 0x7FF80435D8E3: _objc_init (in /usr/lib/libobjc.A.dylib)
+          n1: 528 0x7FF804586BFF: _os_object_init (in /usr/lib/system/libdispatch.dylib)
+           n1: 528 0x7FF804593DF5: libdispatch_init (in /usr/lib/system/libdispatch.dylib)
+            n1: 528 0x7FF8115D8891: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+             n1: 528 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+              n1: 528 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+               n1: 528 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                n1: 528 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                 n1: 528 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                  n1: 528 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                   n1: 528 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                    n1: 528 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                     n1: 528 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                      n1: 528 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                       n0: 528 0x10001231E: (below main) (in /usr/lib/dyld)
+  n0: 48 in 1 place, below massif's threshold (1.00%)
+ n0: 376 in 12 places, all below massif's threshold (1.00%)
+ n1: 128 0x7FF8045FE191: _vasprintf (in /usr/lib/system/libsystem_c.dylib)
+  n1: 128 0x7FF804444A1E: _xpc_asprintf (in /usr/lib/system/libxpc.dylib)
+   n1: 128 0x7FF8044687A8: _xpc_bundle_resolve_sync (in /usr/lib/system/libxpc.dylib)
+    n1: 128 0x7FF804444345: ___xpc_bundle_resolve_block_invoke (in /usr/lib/system/libxpc.dylib)
+     n1: 128 0x7FF804587599: _dispatch_client_callout (in /usr/lib/system/libdispatch.dylib)
+      n1: 128 0x7FF8045887CA: _dispatch_once_callout (in /usr/lib/system/libdispatch.dylib)
+       n1: 128 0x7FF804468475: _xpc_bundle_resolve (in /usr/lib/system/libxpc.dylib)
+        n1: 128 0x7FF804468568: xpc_bundle_copy_services (in /usr/lib/system/libxpc.dylib)
+         n1: 128 0x7FF804441407: _xpc_collect_images (in /usr/lib/system/libxpc.dylib)
+          n1: 128 0x7FF804440A00: _libxpc_initializer (in /usr/lib/system/libxpc.dylib)
+           n1: 128 0x7FF8115D88A1: libSystem_initializer (in /usr/lib/libSystem.B.dylib)
+            n1: 128 0x10002AFC9: invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const::$_0::operator()() const (in /usr/lib/dyld)
+             n1: 128 0x10006C71E: invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+              n1: 128 0x100060912: invocation function for block in dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+               n1: 128 0x10000E07E: dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const (in /usr/lib/dyld)
+                n1: 128 0x10005FADB: dyld3::MachOFile::forEachSection(void ( block_pointer)(dyld3::MachOFile::SectionInfo const&, bool, bool&)) const (in /usr/lib/dyld)
+                 n1: 128 0x10006C309: dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void ( block_pointer)(unsigned int), void const*) const (in /usr/lib/dyld)
+                  n1: 128 0x100027CFB: dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                   n1: 128 0x1000310AD: dyld4::PrebuiltLoader::runInitializers(dyld4::RuntimeState&) const (in /usr/lib/dyld)
+                    n1: 128 0x100049877: dyld4::APIs::runAllInitializersForMain() (in /usr/lib/dyld)
+                     n1: 128 0x100013240: dyld4::prepare(dyld4::APIs&, dyld3::MachOAnalyzer const*) (in /usr/lib/dyld)
+                      n0: 128 0x10001231E: (below main) (in /usr/lib/dyld)
+#-----------
+snapshot=10
+#-----------
+time=2374091
+mem_heap_B=8965
+mem_heap_extra_B=1547
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=2469009
+mem_heap_B=88965
+mem_heap_extra_B=1555
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=2497400
+mem_heap_B=20608965
+mem_heap_extra_B=5651
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2525816
+mem_heap_B=41088965
+mem_heap_extra_B=9747
+mem_stacks_B=0
+heap_tree=detailed
+n2: 41088965 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 40920000 0x1000039B7: allocateArray (matrixVector.c:17)
+  n0: 20480000 0x100003CDA: main (matrixVector.c:87)
+  n0: 20440000 0x100003CF1: main (matrixVector.c:88)
+ n0: 168965 in 25 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=2554232
+mem_heap_B=61568965
+mem_heap_extra_B=13843
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2580872
+mem_heap_B=80768965
+mem_heap_extra_B=17683
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2610176
+mem_heap_B=101888965
+mem_heap_extra_B=21907
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2639480
+mem_heap_B=123008965
+mem_heap_extra_B=26131
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2672447
+mem_heap_B=146768965
+mem_heap_extra_B=30883
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2701751
+mem_heap_B=167888965
+mem_heap_extra_B=35107
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2731055
+mem_heap_B=189008965
+mem_heap_extra_B=39331
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2764022
+mem_heap_B=212768965
+mem_heap_extra_B=44083
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2793326
+mem_heap_B=233888965
+mem_heap_extra_B=48307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2822630
+mem_heap_B=255008965
+mem_heap_extra_B=52531
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2855597
+mem_heap_B=278768965
+mem_heap_extra_B=57283
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2892893
+mem_heap_B=305648965
+mem_heap_extra_B=62659
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2930189
+mem_heap_B=332528965
+mem_heap_extra_B=68035
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2967485
+mem_heap_B=359408965
+mem_heap_extra_B=73411
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=3004781
+mem_heap_B=386288965
+mem_heap_extra_B=78787
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=3042077
+mem_heap_B=413168965
+mem_heap_extra_B=84163
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=3060725
+mem_heap_B=426608965
+mem_heap_extra_B=86851
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=3088697
+mem_heap_B=446768965
+mem_heap_extra_B=90883
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=3125993
+mem_heap_B=473648965
+mem_heap_extra_B=96259
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=3163289
+mem_heap_B=500528965
+mem_heap_extra_B=101635
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3200585
+mem_heap_B=527408965
+mem_heap_extra_B=107011
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=3237881
+mem_heap_B=554288965
+mem_heap_extra_B=112387
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=3275177
+mem_heap_B=581168965
+mem_heap_extra_B=117763
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3293825
+mem_heap_B=594608965
+mem_heap_extra_B=120451
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3321797
+mem_heap_B=614768965
+mem_heap_extra_B=124483
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3359093
+mem_heap_B=641648965
+mem_heap_extra_B=129859
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=3377741
+mem_heap_B=655088965
+mem_heap_extra_B=132547
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=3396389
+mem_heap_B=668528965
+mem_heap_extra_B=135235
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=3415037
+mem_heap_B=681968965
+mem_heap_extra_B=137923
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=3433685
+mem_heap_B=695408965
+mem_heap_extra_B=140611
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=3452333
+mem_heap_B=708848965
+mem_heap_extra_B=143299
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=3470981
+mem_heap_B=722288965
+mem_heap_extra_B=145987
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=3489629
+mem_heap_B=735728965
+mem_heap_extra_B=148675
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=3508277
+mem_heap_B=749168965
+mem_heap_extra_B=151363
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=3526925
+mem_heap_B=762608965
+mem_heap_extra_B=154051
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=3554897
+mem_heap_B=782768965
+mem_heap_extra_B=158083
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=3559559
+mem_heap_B=786128965
+mem_heap_extra_B=158755
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=3564221
+mem_heap_B=789488965
+mem_heap_extra_B=159427
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=3568883
+mem_heap_B=792848965
+mem_heap_extra_B=160099
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=3573545
+mem_heap_B=796208965
+mem_heap_extra_B=160771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=3578207
+mem_heap_B=799568965
+mem_heap_extra_B=161443
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=4803971838
+mem_heap_B=800173061
+mem_heap_extra_B=161571
+mem_stacks_B=0
+heap_tree=empty

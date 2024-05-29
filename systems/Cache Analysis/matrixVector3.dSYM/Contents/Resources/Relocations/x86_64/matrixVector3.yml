@@ -1,0 +1,14 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     matrixVector3
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _getTime, symObjAddr: 0x0, symBinAddr: 0x100003910, symSize: 0x50 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _getTime, symObjAddr: 0x0, symBinAddr: 0x100003910, symSize: 0x50 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _allocateArray, symObjAddr: 0x50, symBinAddr: 0x100003960, symSize: 0x30 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: _fillArrayRandom, symObjAddr: 0x80, symBinAddr: 0x100003990, symSize: 0x60 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _fillArrayZeros, symObjAddr: 0xE0, symBinAddr: 0x1000039F0, symSize: 0x40 }
+  - { offsetInCU: 0x13B, offset: 0x13B, size: 0x8, addend: 0x0, symName: _printArray, symObjAddr: 0x120, symBinAddr: 0x100003A30, symSize: 0x70 }
+  - { offsetInCU: 0x17B, offset: 0x17B, size: 0x8, addend: 0x0, symName: _printMatrix, symObjAddr: 0x190, symBinAddr: 0x100003AA0, symSize: 0x60 }
+  - { offsetInCU: 0x1C9, offset: 0x1C9, size: 0x8, addend: 0x0, symName: _matrixVectorMultiply, symObjAddr: 0x1F0, symBinAddr: 0x100003B00, symSize: 0xA0 }
+  - { offsetInCU: 0x241, offset: 0x241, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x290, symBinAddr: 0x100003BA0, symSize: 0x283 }
+...
